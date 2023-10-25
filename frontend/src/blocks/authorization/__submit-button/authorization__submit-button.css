@@ -1,0 +1,27 @@
+.authorization__submit-button {
+    margin: 186px 0 0 0;
+    height: 50px;
+    border-radius: 2px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #000;
+    transition: opacity 0.3s ease;
+}
+
+.authorization__submit-button:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 729px) {
+    .authorization__submit-button {
+        font-size: 16px;
+        margin: 173px 0 0 0;
+    }
+}
