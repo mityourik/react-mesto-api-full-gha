@@ -1,0 +1,12 @@
+.header__dropdown-email {
+    color: #fff;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+}

@@ -1,0 +1,27 @@
+.header__auth-link {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-family: 'Inter', 
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #A9A9A9;
+    transition: opacity 0.3s ease;
+}
+
+.header__auth-link:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 729px) {
+  .header__auth-link {
+      font-size: 14px;
+      line-height: normal;
+      margin: 0 30px 15px 0;
+  }
+}

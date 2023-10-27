@@ -1,0 +1,19 @@
+.header__dropdown-link {
+    display: flex;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: #A9A9A9;
+    text-align: right;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 18px 0 0 0;
+    transition: opacity 0.3s ease;
+}
+
+.header__dropdown-link:hover {
+    opacity: 0.6;
+}
