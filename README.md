@@ -9,7 +9,7 @@
 
 ## Ссылки на проект
 
-IP-адрес 51.250.9.126
+IP 51.250.9.126
 
 Frontend https://mityourik.nomoredomainsrocks.ru
 
