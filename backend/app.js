@@ -3,10 +3,9 @@ const mongoose = require('mongoose');
 const cookieParser = require('cookie-parser');
 const { errors } = require('celebrate');
 const cors = require('cors');
-const { errorLogger } = require('express-winston');
+const { requestLogger, errorLogger } = require('./middlewares/logger');
 const router = require('./routes');
 const { errorsHandler } = require('./middlewares/errorsHadler');
-const { requestLogger } = require('./middlewares/logger');
 
 const { PORT = 3000 } = process.env;
 
